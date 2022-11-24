@@ -1,0 +1,608 @@
+@charset "utf-8";
+@import url("../../webfonts/TitilliumWeb_Regular/stylesheet.css");
+@import url("../../webfonts/TitilliumWeb_SemiBold/stylesheet.css");
+@import url("../../webfonts/TitilliumWeb_Bold/stylesheet.css");
+@import url("../../webfonts/TitilliumWeb_ExtraLightItalic/stylesheet.css");
+@import url("../../webfonts/TitilliumWeb_ExtraLight/stylesheet.css");
+@import url("../../webfonts/TitilliumWeb_BoldItalic/stylesheet.css");
+@import url("../../webfonts/Shree_Devanagari_714/stylesheet.css");
+@import url("../../webfonts/TitilliumWeb_Black/stylesheet.css");
+
+
+
+
+
+
+
+
+header {
+    background-color: #FFFFFF;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+nav {
+    background-color: #15BFBF;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+main {
+    padding: 10px;
+    background-color: #EDEBF2;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+	height: 100%;
+}
+footer  {
+    background-color: #025373;
+    color: #FFFFFF;
+    height: 100px;
+    text-align: center;
+    font-family: "TitilliumWeb BoldItalic";
+    font-size: 16px;
+}
+* {
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-align: center;
+	height: auto;
+}
+body nav div {
+    text-align: center;
+    background-color: #84D9D9;
+    padding-top: 15px;
+}
+.navdiv2 {
+    background-color: #15BFBF;
+}
+.seccion img {
+    width: 20%;
+    height: auto;
+}
+imagen_servicios {
+    width: 20%;
+    height: auto;
+}
+
+
+body main section {
+	width: 100%;
+	margin: 10px;
+	background-color: #BDBEBE;
+	height: 0%;
+}
+body h4 {
+    background-color: #025E73;
+    color: #FFFFFF;
+    text-align: center;
+    height: 30px;
+    padding-top: 5px;
+    font-family: "TitilliumWeb ExtraLight";
+}
+.logo_hotel {
+    width: auto;
+    height: 200px;
+}
+
+
+.titulocontenido {
+    padding: 30px;
+    width: 800px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "TitilliumWeb Bold";
+    color: #025E73;
+    font-size: 36px;
+}
+.titulocontenido_servicios {
+    text-align: center;
+    line-height: 150px;
+
+}
+
+.parrafo1 {
+    padding: 10px;
+    background-color: #E0E0E0;
+    height: auto;
+    width: 700px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: justify;
+    font-family: "Shree Devanagari 714";
+}
+.shree {
+    font-family: "Shree Devanagari 714";
+    font-size: 20px;
+}
+
+.titulocontenido2 {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+    padding: 30px;
+    width: 800px;
+    left: auto;
+    right: auto;
+    text-align: center;
+    font-size: 45px;
+}
+.seccion {
+    width: auto;
+    /* [disabled]height: auto; */
+}
+.seccion2 {
+    background-color: #BFFAFF;
+}
+.imagen_servicios {
+    width: 50px;
+    height: auto;
+}
+.testimonio {
+	background-color: #BDBEBE;
+	width: 100%;
+	height: 100%;
+}
+.comentarios {
+  display: flex;
+  flex-direction: row;
+	margin-top: 4%;
+}
+.comentarios_txt {
+  width: 20%;
+  height: 80%;
+	margin-left: 6%;
+}
+
+.comentario_img{
+	width: 10%;
+	height: 20%;
+	margin-left: 10%;
+}
+
+.star-rating {
+	size: 500px;
+	normal: #95A5A6;
+	selected: #F39C12;
+	display: inline-block;
+}
+
+.star-rating a {
+	width: 15%;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 32px;
+	font-size: 2rem;	
+	color: #888;
+}
+
+.star-rating:hover a {
+	color: rgb(39, 130, 228);
+}
+.star-rating > a:hover ~ a {
+	color: #888;
+}
+.leyendo{
+    background-color: #84D9D9;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-family: "TitilliumWeb ExtraLight";
+}
+.comentario_btn{
+	width: 25%;
+	margin-top: 3%;
+	height: auto;
+}
+hr{
+	margin-top: 40px;
+	width: 60%;
+	height: 5px;
+	margin-left: 20%;
+	background-color: #84D9D9;
+}
+.comentario_fila {
+  display: flex;
+  flex-direction: row;
+	margin-top: 4%;
+}
+.texto_noticias{
+    font-size: 36px;
+    color: #322770;
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 5%;
+    text-align: center;
+    font-family: "TitilliumWeb Bold";
+}
+.escrbir_comentario{
+	background-color: #84D9D9;
+	width: 25%;
+	margin-left: 10%;
+	
+}
+.escrbir_comentario p{
+    text-align: left;
+    font-family: "TitilliumWeb ExtraLight";
+}
+.escrbir_comentario [type=text]{
+	width: 100%;
+}
+.escrbir_comentario [type=submit]{
+	width: 50%;
+}
+.comentario_section{
+	margin-bottom: 8%;
+}
+.contacto {
+	background-color: #BDBEBE;
+	width: 100%;
+	height: 100%;
+}
+
+.contacto_columna{
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 10%;
+}
+.contacto_section{
+	margin-top: 15%;
+	margin-left: 15%;
+	width: 80%
+}
+.comentario_txt{
+	width: 40%;
+	margin-left: 10%;
+}
+.comentario_txt h5{
+	font-size: 38px;
+	color: #408EAD;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	margin-bottom: 5%;
+}
+.comentario_txt p{
+	font-size: 18px;
+	text-align: left;
+	margin-left: 15%;
+	padding-bottom: 2%;
+}
+.comentario_txt [type=submit]{
+	width: 30%;
+	margin-left: 70%;
+}
+.galerias {
+  display: flex;
+  flex-direction: row;
+	margin-top: 4%;
+}
+.galeria_img{
+	width: 50%;
+	height: 20%;
+	margin-left: 10%;
+}
+.galeria_txt{
+	width: 90%;
+	margin-left: 5%;
+}
+.galeria_txt h5{
+	font-size: 32px;
+	color: #408EAD;
+	margin-bottom: 3%;
+	text-align: left;
+}
+.galeria_txt p{
+	text-align: left;
+}
+.galeria_txt2{
+	width: 50%;
+	margin-left: 9%;
+}
+.galeria_txt2 h5{
+	font-size: 32px;
+	color: #408EAD;
+	margin-bottom: 3%;
+	text-align: left;
+}
+.galeria_txt2 p{
+	text-align: left;
+}
+.galeria_img2{
+	width: 40%;
+	height: 20%;
+}
+.galeria_img2 img{
+	width: 80%;
+}
+.reservacion {
+  display: flex;
+  flex-direction: row;
+	margin-top: 4%;
+}
+.formulario_res{
+	background-color:#23AAA1;
+	width: 30%;
+	margin-left: 10%;
+}
+.formulario_res p{
+    text-align: left;
+    padding-bottom: 4%;
+    padding-top: 2%;
+}
+.formulario_res [type=text]{
+	width: 60%;
+	margin-right: 25%;
+}
+.input_radio{
+	display: flex;
+	flex-direction: row;
+	width: 60%;
+}
+.reservacion_aqui{
+	background: #19A2B7;
+	margin-top: 10%;
+	width: 50%;
+	margin-left: 30%;
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 9%;
+}
+.reservacion_aqui h5{
+	margin-top: 4%;
+	color:#40538D;
+	font-size: 24px
+}
+.reservacion_txt{
+	background: #FFFFFF;
+	margin-top: 10%;
+	width: 80%;
+	margin-left: 10%;
+	height: 50%;
+}
+.reservacion_txt p{
+	text-align: left;
+	margin-top: 5%;
+	width: 90%;
+}
+* {box-sizing: border-box;}
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+.titilium-regular {
+    font-family: "TitilliumWeb Regular";
+    color: #FFFFFF;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container{
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.section_3 {
+    width: 302%;
+    height: 800px;
+    margin-top: 20px;
+
+}
+.marquee {
+    width: 70%;
+    height: 70%;
+}
+.titilium-semibold {
+    color: #025E73;
+    font-family: "TitilliumWeb SemiBold";
+    font-size: 18px;
+}
+.shree-text {
+    font-family: "Shree Devanagari 714";
+}
+
+
+
+
+
+
+
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+
+}
+._linkFB {
+    color: #FFFFFF;
+    font-family: "TitilliumWeb ExtraLight";
+}
+._linkFB ._FB {
+    width: 20px;
+    height: auto;
+}
+.shree {
+}
+.shree {
+}
+.titilium-bold   {
+    font-family: "TitilliumWeb Bold";
+    font-size: 36px;
+}
+.titilium-extraligth {
+    color: #025E73;
+    font-size: 21px;
+    font-family: "TitilliumWeb ExtraLight";
+}
+.shree-reserva {
+    font-family: "Shree Devanagari 714";
+}
+
+
+
+.titilium-bold {
+}
+.titilium-bold {
+}
+.titilium-extraligth {
+}
+.titilium-extraligth {
+}
+.shree-reserva {
+}
+.shree-reserva {
+}
+.titilium-regular {
+}
+.shree-text {
+}
+.shree-text {
+}
+.name {
+    font-family: "TitilliumWeb SemiBold";
+}
